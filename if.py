@@ -1,6 +1,10 @@
-age = int(input("Enter your age : "))
-if age >= 18 :
-    print("You are now signedup!")
+mark = int(input("Enter your mark: "))
 
+if mark >= 90:
+    print("Excellent")
+elif mark >= 75:
+    print("Very good")
+elif mark >= 50:
+    print("Pass")
 else:
-    print("You must be 18+")
+    print("Fail")
